@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
-app.use(cors({origin:['https://ujjwal-backend.onrender.com'],
+app.use(cors({origin:['https://propertybabu.netlify.app','http://localhost:5173'],
    credentials:true,
    methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
