@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
-app.use(cors({origin:['http://localhost:5173'],
+app.use(cors({origin:['http://localhost:5173','https://ujjwal-backend.onrender.com'],
    credentials:true,
    methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
