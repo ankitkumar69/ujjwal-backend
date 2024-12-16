@@ -17,7 +17,7 @@ const connect = async () => {
       console.log(error);
     }
   } 
-};
-connect(); 
+}; 
+connect();   
 
 export default connect;
